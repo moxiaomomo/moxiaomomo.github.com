@@ -1,10 +1,10 @@
-JavaChen Blog
+moxiaomomo's Blog
 ======
 
 *********
 
-博客源码：[http:/blog.javachen.com](http://blog.javachen.com)
+博客源码：[https://github.com/moxiaomomo/moxiaomomo.github.com/]
 
-使用Github+Jekyll+Markdown。
+使用Github+Jekyll+Markdown构建。
 
 
