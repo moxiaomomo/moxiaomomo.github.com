@@ -14,7 +14,7 @@ group: navigation
 >放下就是获得。<br/>
 >恐惧来源于无知,信心来源于实力。
 
-## 联系我
+### 联系我
 
 * Email：moxiaomomo[@]gmail.com
 
