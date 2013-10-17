@@ -2,6 +2,7 @@
 layout: page
 tagline: 
 ---
+
 {% include JB/setup %}
 
 <div class="row">
@@ -33,6 +34,7 @@ tagline:
 		<a href='{{post.url}}#comments' title='分享文章、查看评论' style="float:right;margin-right:.5em;">Comments</a>
 	</div>
     </header>
+
     <div class="content">
 	  {% if post.content contains "<!-- more -->" %}
 	    {{ post.content | split:"<!-- more -->" | first % }}
@@ -70,7 +72,6 @@ tagline:
 	    </ul>
 	  {% endunless %}
      </section>
-
     <section>
     <h2>Recent Posts</h2>
     <ul id="recent_posts">{% for rpost in site.posts limit: 20 %}
@@ -89,17 +90,15 @@ tagline:
 	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
 	</script>
-	
+
 	<section>
 		<h2>Recent Comments</h2>
 		<ul class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="100"></ul>
 	</section>
-	
 	<section>
 		<h2>Recent Vistors</h2>
 		 <ul class="ds-recent-visitors" data-num-items="18"></ul>
 	</section>
-	 
     <section>
     <h2>Links</h2>
    	<ul>
@@ -130,7 +129,6 @@ tagline:
 				<li><a href="http://coolshell.cn/" target="_blank">酷壳–CoolShell.cn</a></li>
 				<li><a href="http://www.coder4.com/" target="_blank">四号程序员</a></li>
 				<li><a href="http://timyang.net/" target="_blank">Tim[后端技术]</a></li>
-
 				<li><a href="http://www.agiledon.com/" target="_blank">捷道</a>Thoughtworks架构师</li>
 				<li><a href="http://log4d.com/" target="_blank">Log4D</a></li>
 
